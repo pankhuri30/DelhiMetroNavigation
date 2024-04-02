@@ -27,3 +27,7 @@ To run the test suite, following needs to be installed on the system :
 Command to execute the test suite from root directory: 
 
 pytest tests/testMetro.py --alluredir=report
+
+Command to check the report :
+
+allure serve report 
