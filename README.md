@@ -24,6 +24,6 @@ To run the test suite, following needs to be installed on the system :
      5.2 Carthage by using 'brew install carthage'
      5.3 ideviceinstaller by using 'brew install ideviceinstaller'
 
-Command to execute the test suite : 
+Command to execute the test suite from root directory: 
 
 pytest tests/testMetro.py --alluredir=report
