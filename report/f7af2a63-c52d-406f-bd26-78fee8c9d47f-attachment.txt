@@ -1,0 +1,8 @@
+Android
+//android.widget.TextView[@text='Fare']
+Android
+//android.widget.TextView[@text='Show Fare']
+Fare tab loads successfully
+Android
+//android.widget.TextView[@text='Show Fare']
+Total Fare from Barakhamba Road to Bahadurgarh City is : 60

@@ -1,0 +1,44 @@
+[32mINFO    [0m airtest.core.api:cv.py:59 Try finding: Template(./images/ShowFare.png)
+[35mDEBUG   [0m airtest.core.android.adb:adb.py:186 /Users/pnakhuri/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell ls /data/local/tmp/minicap
+[35mDEBUG   [0m airtest.core.android.adb:adb.py:186 /Users/pnakhuri/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell ls /data/local/tmp/minicap.so
+[35mDEBUG   [0m airtest.core.android.adb:adb.py:186 /Users/pnakhuri/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell LD_LIBRARY_PATH=/data/local/tmp /data/local/tmp/minicap -v 2>&1
+[35mDEBUG   [0m airtest.core.android.cap_methods.minicap:minicap.py:83 version:5
+[35mDEBUG   [0m airtest.core.android.cap_methods.minicap:minicap.py:90 skip install minicap
+[35mDEBUG   [0m airtest.core.android.adb:adb.py:186 /Users/pnakhuri/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell ls -l /data/local/tmp/rotationwatcher.jar
+[35mDEBUG   [0m airtest.core.android.rotation:rotation.py:49 install_rotationwatcher skipped
+[35mDEBUG   [0m airtest.core.android.adb:adb.py:186 /Users/pnakhuri/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell app_process -Djava.class.path=/data/local/tmp/rotationwatcher.jar /data/local/tmp com.example.rotationwatcher.Main
+[35mDEBUG   [0m airtest.utils.nbsp:nbsp.py:37 [rotation_server]b'0'
+[32mINFO    [0m airtest.core.android.rotation:rotation.py:151 update orientation None->0
+[35mDEBUG   [0m airtest.core.android.cap_methods.minicap:minicap.py:386 update_rotation: 0
+[35mDEBUG   [0m airtest.core.android.adb:adb.py:186 /Users/pnakhuri/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell wm size
+[35mDEBUG   [0m airtest.core.android.adb:adb.py:186 /Users/pnakhuri/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell getprop ro.sf.lcd_density
+[35mDEBUG   [0m airtest.core.android.adb:adb.py:186 /Users/pnakhuri/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell getprop qemu.sf.lcd_density
+[35mDEBUG   [0m airtest.core.android.adb:adb.py:186 /Users/pnakhuri/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell dumpsys SurfaceFlinger
+[35mDEBUG   [0m airtest.core.android.adb:adb.py:186 /Users/pnakhuri/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell dumpsys input
+[35mDEBUG   [0m airtest.core.android.adb:adb.py:186 /Users/pnakhuri/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell getevent -p
+[35mDEBUG   [0m airtest.core.android.adb:adb.py:186 /Users/pnakhuri/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell LD_LIBRARY_PATH=/data/local/tmp /data/local/tmp/minicap -n 'airtest_minicap' -P 1080x2400@1080x2400/0 -s
+[35mDEBUG   [0m airtest.core.android.cap_methods.minicap:minicap.py:345 do update rotation
+[35mDEBUG   [0m airtest.core.android.adb:adb.py:186 /Users/pnakhuri/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell ps -A| grep minicap
+[35mDEBUG   [0m airtest.core.android.adb:adb.py:186 /Users/pnakhuri/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell ps| grep minicap
+[35mDEBUG   [0m airtest.core.android.adb:adb.py:186 /Users/pnakhuri/Library/Android/sdk/platform-tools/adb -s emulator-5554 forward --no-rebind tcp:19040 localabstract:minicap_19040
+[35mDEBUG   [0m airtest.core.android.adb:adb.py:186 /Users/pnakhuri/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell LD_LIBRARY_PATH=/data/local/tmp /data/local/tmp/minicap -n 'minicap_19040' -P 1080x2400@1080x2400/0 -l 2>&1
+[35mDEBUG   [0m airtest.utils.nbsp:nbsp.py:37 [minicap_server]b'PID: 15406'
+[35mDEBUG   [0m airtest.utils.nbsp:nbsp.py:37 [minicap_server]b'INFO: Using projection 1080x2400@1080x2400/0'
+[35mDEBUG   [0m airtest.utils.nbsp:nbsp.py:37 [minicap_server]b'INFO: (external/MY_minicap/src/minicap_30.cpp:243) Creating SurfaceComposerClient'
+[35mDEBUG   [0m airtest.utils.nbsp:nbsp.py:37 [minicap_server]b'INFO: (external/MY_minicap/src/minicap_30.cpp:246) Performing SurfaceComposerClient init check'
+[35mDEBUG   [0m airtest.utils.nbsp:nbsp.py:37 [minicap_server]b'INFO: (external/MY_minicap/src/minicap_30.cpp:257) Creating virtual display'
+[35mDEBUG   [0m airtest.utils.nbsp:nbsp.py:37 [minicap_server]b'INFO: (external/MY_minicap/src/minicap_30.cpp:263) Creating buffer queue'
+[35mDEBUG   [0m airtest.utils.nbsp:nbsp.py:37 [minicap_server]b'INFO: (external/MY_minicap/src/minicap_30.cpp:266) Setting buffer options'
+[35mDEBUG   [0m airtest.utils.nbsp:nbsp.py:37 [minicap_server]b'INFO: (external/MY_minicap/src/minicap_30.cpp:270) Creating CPU consumer'
+[35mDEBUG   [0m airtest.utils.nbsp:nbsp.py:37 [minicap_server]b'INFO: (external/MY_minicap/src/minicap_30.cpp:274) Creating frame waiter'
+[35mDEBUG   [0m airtest.utils.nbsp:nbsp.py:37 [minicap_server]b'INFO: (external/MY_minicap/src/minicap_30.cpp:278) Publishing virtual display'
+[35mDEBUG   [0m airtest.utils.nbsp:nbsp.py:37 [minicap_server]b'INFO: (jni/minicap/JpgEncoder.cpp:64) Allocating 7835652 bytes for JPG encoder'
+[35mDEBUG   [0m airtest.utils.nbsp:nbsp.py:37 [minicap_server]b'INFO: (jni/minicap/minicap.cpp:489) Server start'
+[35mDEBUG   [0m airtest.core.android.cap_methods.minicap:minicap.py:248 (1, 24, 15406, 1080, 2400, 1080, 2400, 0, 2)
+[35mDEBUG   [0m airtest.utils.nbsp:nbsp.py:37 [minicap_server]b'INFO: (jni/minicap/minicap.cpp:492) New client connection'
+[35mDEBUG   [0m airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
+[35mDEBUG   [0m airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.00 s.
+[35mDEBUG   [0m airtest.core.api:cv.py:189 try match with TemplateMatching
+[35mDEBUG   [0m airtest.aircv.template_matching:template_matching.py:84 [Template] threshold=0.7, result={'result': (546, 760), 'rectangle': ((384, 603), (384, 917), (708, 917), (708, 603)), 'confidence': 0.9909162521362305}
+[35mDEBUG   [0m airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.09 s.
+[35mDEBUG   [0m airtest.core.api:cv.py:155 match result: {'result': (546, 760), 'rectangle': ((384, 603), (384, 917), (708, 917), (708, 603)), 'confidence': 0.9909162521362305, 'time': 0.09334111213684082}

@@ -1,0 +1,4 @@
+apk is already installed on the device
+Android
+//android.widget.TextView[@text='Delhi Metro Navigator']
+Lobby successfully launched

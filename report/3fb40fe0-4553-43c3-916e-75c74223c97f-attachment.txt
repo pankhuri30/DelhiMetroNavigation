@@ -1,0 +1,8 @@
+Android
+//android.widget.TextView[@text='Gates and Directions']
+Android
+//android.widget.TextView[@text='Gates and Directions']
+Android
+//android.widget.TextView[@text='Gate Number :']
+Total 3 gates are there on the Civil Lines station for Entry/Exit
+Gates & Directions tab works 

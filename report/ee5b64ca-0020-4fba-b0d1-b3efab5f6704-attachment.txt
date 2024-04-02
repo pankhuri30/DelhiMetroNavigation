@@ -1,0 +1,7 @@
+Android
+//android.widget.TextView[@text='Parking']
+Android
+//android.widget.TextView[@text='Parking']
+Android
+//android.widget.TextView[@text='CARS']
+No parking available at Badkal Mor metro station

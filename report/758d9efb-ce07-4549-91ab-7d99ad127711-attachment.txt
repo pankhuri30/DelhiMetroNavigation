@@ -1,0 +1,8 @@
+Android
+//android.widget.TextView[@text='Route']
+Android
+//android.widget.TextView[@text='Show Route']
+Total Fare Amount : Rs60
+Total Fare Time : 131mins
+Total Fare Stations in between : 49stations
+Total Metro lines need to be change : 2lines
