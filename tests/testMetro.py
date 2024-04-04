@@ -7,7 +7,6 @@ from airtest.core.api import *
 from appium.webdriver.common.appiumby import AppiumBy
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC 
-from airtest.core.api import *
 # So that we can run this file from anywhere
 workingDir =os.path.dirname(os.path.dirname(__file__))
 sys.path.append(workingDir)
@@ -240,7 +239,7 @@ def test_Like():
     AdsEle = wait.until(EC.presence_of_element_located((AppiumBy.XPATH,fetchXPath(desired_caps["platformName"],"Remove Ads"))))
     ParkEle = wait.until(EC.presence_of_element_located((AppiumBy.XPATH,fetchXPath(desired_caps["platformName"],"Parking")))) 
     # For swipe the screen
-    driver.drag_and_drop(ParkEle,AdsEle)
+    driver.scroll(ParkEle,AdsEle)
     FeedbackEle = wait.until(EC.presence_of_element_located((AppiumBy.XPATH,fetchXPath(desired_caps["platformName"],"Like this App"))))
     FeedbackEle.click()
     assert wait.until(EC.presence_of_element_located((AppiumBy.XPATH,fetchXPath(desired_caps["platformName"],"Rate this App"))))
@@ -256,7 +255,7 @@ def test_Feedback():
     AdsEle = wait.until(EC.presence_of_element_located((AppiumBy.XPATH,fetchXPath(desired_caps["platformName"],"Remove Ads"))))
     ParkEle = wait.until(EC.presence_of_element_located((AppiumBy.XPATH,fetchXPath(desired_caps["platformName"],"Parking")))) 
     # For swipe the screen
-    driver.drag_and_drop(ParkEle,AdsEle)
+    driver.scroll(ParkEle,AdsEle)
     FeedbackEle = wait.until(EC.presence_of_element_located((AppiumBy.XPATH,fetchXPath(desired_caps["platformName"],"Feedback"))))
     FeedbackEle.click()
     assert wait.until(EC.presence_of_element_located((AppiumBy.XPATH,fetchXPath(desired_caps["platformName"],"Share"))))
@@ -271,7 +270,7 @@ def test_About():
     AdsEle = wait.until(EC.presence_of_element_located((AppiumBy.XPATH,fetchXPath(desired_caps["platformName"],"Remove Ads"))))
     ParkEle = wait.until(EC.presence_of_element_located((AppiumBy.XPATH,fetchXPath(desired_caps["platformName"],"Parking")))) 
     # For swipe the screen
-    driver.drag_and_drop(ParkEle,AdsEle)
+    driver.scroll(ParkEle,AdsEle)
     AboutEle = wait.until(EC.presence_of_element_located((AppiumBy.XPATH,fetchXPath(desired_caps["platformName"],"About"))))
     AboutEle.click()
     assert wait.until(EC.presence_of_element_located((AppiumBy.XPATH,fetchXPath(desired_caps["platformName"],"Developed By:"))))
