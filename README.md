@@ -20,9 +20,9 @@ To run the test suite, following needs to be installed on the system :
   5. Airtest by using 'pip install airtest'
   6. Android SDK
   7. iOS Dependencies:
-     7.1 Xcode
-     7.2 Carthage by using 'brew install carthage'
-     7.3 ideviceinstaller by using 'brew install ideviceinstaller'
+      Xcode
+      Carthage by using 'brew install carthage'
+      ideviceinstaller by using 'brew install ideviceinstaller'
 
 Command to execute the test suite from root directory: 
 
