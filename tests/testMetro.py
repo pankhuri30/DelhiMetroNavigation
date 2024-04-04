@@ -192,7 +192,7 @@ def test_Parking():
         driver.find_element(AppiumBy.XPATH,fetchXPath(desired_caps["platformName"],"CYCLE")).click()
         print(f"Parking is available at {metro} station")
     except:
-        driver.find_element(AppiumBy.ID,path["Parking"])
+        driver.find_element(AppiumBy.ID,path["Parkingtxt"])
         print(f"No parking available at {metro} metro station")
     allure.attach(driver.get_screenshot_as_png(),name="Parking",attachment_type=attachment_type.PNG)
     driver.back()
