@@ -79,7 +79,7 @@ path = {
     "RouteSource" : packageName+":id/txt_source",
     "RouteDestination" : packageName+":id/txt_destination",
     "time" : packageName+":id/time",
-    "Parking" : packageName+":id/txt_parking",
+    "Parkingtxt" : packageName+":id/txt_parking",
     "Station" : packageName+":id/txt_station",
 
 }
