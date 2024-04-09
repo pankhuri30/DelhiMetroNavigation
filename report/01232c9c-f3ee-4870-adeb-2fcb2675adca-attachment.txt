@@ -1,7 +1,0 @@
-[32mINFO    [0m airtest.core.api:cv.py:59 Try finding: Template(./images/ParkingHead.png)
-[35mDEBUG   [0m airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
-[35mDEBUG   [0m airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.00 s.
-[35mDEBUG   [0m airtest.core.api:cv.py:189 try match with TemplateMatching
-[35mDEBUG   [0m airtest.aircv.template_matching:template_matching.py:84 [Template] threshold=0.7, result={'result': (241, 146), 'rectangle': ((22, 87), (22, 205), (461, 205), (461, 87)), 'confidence': 0.9867807626724243}
-[35mDEBUG   [0m airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.06 s.
-[35mDEBUG   [0m airtest.core.api:cv.py:155 match result: {'result': (241, 146), 'rectangle': ((22, 87), (22, 205), (461, 205), (461, 87)), 'confidence': 0.9867807626724243, 'time': 0.05970597267150879}

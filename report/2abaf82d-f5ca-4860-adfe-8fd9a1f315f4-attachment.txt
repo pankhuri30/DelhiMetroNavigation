@@ -1,5 +1,0 @@
-Android
-//android.widget.TextView[@text='Upcoming Metro']
-Android
-//android.widget.TextView[@text='Upcoming Metro']
-Upcoming tab works fine

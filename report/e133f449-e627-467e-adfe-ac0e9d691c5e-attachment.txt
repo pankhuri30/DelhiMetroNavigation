@@ -1,5 +1,0 @@
-Android
-//android.widget.TextView[@text='Map']
-Android
-//android.widget.TextView[@text='Map']
-Map loads successfully

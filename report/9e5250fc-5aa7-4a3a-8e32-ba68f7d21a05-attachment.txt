@@ -1,3 +1,0 @@
-Android
-//android.widget.TextView[@text='Remove Ads']
-Remove Ads tab found successfully

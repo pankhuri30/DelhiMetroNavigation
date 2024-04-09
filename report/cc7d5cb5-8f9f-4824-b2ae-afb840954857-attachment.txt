@@ -1,8 +1,0 @@
-[14:18:35][INFO]<airtest.core.api> Try finding: Template(./images/developedBy.png)
-[14:18:35][DEBUG]<airtest.core.api> try match with MultiScaleTemplateMatchingPre
-[14:18:35][DEBUG]<airtest.aircv.utils> find_best_result() run time is 0.00 s.
-[14:18:35][DEBUG]<airtest.core.api> try match with TemplateMatching
-[14:18:35][DEBUG]<airtest.aircv.template_matching> [Template] threshold=0.7, result={'result': (427, 526), 'rectangle': ((6, 106), (6, 946), (849, 946), (849, 106)), 'confidence': 0.9996420741081238}
-[14:18:35][DEBUG]<airtest.aircv.utils> find_best_result() run time is 0.06 s.
-[14:18:35][DEBUG]<airtest.core.api> match result: {'result': (427, 526), 'rectangle': ((6, 106), (6, 946), (849, 946), (849, 106)), 'confidence': 0.9996420741081238, 'time': 0.05804705619812012}
-[14:18:36][INFO]<airtest.core.android.android> stopping recording

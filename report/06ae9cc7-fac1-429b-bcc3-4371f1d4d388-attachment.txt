@@ -1,7 +1,0 @@
-[14:11:40][INFO]<airtest.core.api> Try finding: Template(./images/MapImage.png)
-[14:11:40][DEBUG]<airtest.core.api> try match with MultiScaleTemplateMatchingPre
-[14:11:40][DEBUG]<airtest.aircv.utils> find_best_result() run time is 0.00 s.
-[14:11:40][DEBUG]<airtest.core.api> try match with TemplateMatching
-[14:11:40][DEBUG]<airtest.aircv.template_matching> [Template] threshold=0.7, result={'result': (538, 587), 'rectangle': ((19, 90), (19, 1084), (1058, 1084), (1058, 90)), 'confidence': 0.9989561438560486}
-[14:11:40][DEBUG]<airtest.aircv.utils> find_best_result() run time is 0.06 s.
-[14:11:40][DEBUG]<airtest.core.api> match result: {'result': (538, 587), 'rectangle': ((19, 90), (19, 1084), (1058, 1084), (1058, 90)), 'confidence': 0.9989561438560486, 'time': 0.056113243103027344}

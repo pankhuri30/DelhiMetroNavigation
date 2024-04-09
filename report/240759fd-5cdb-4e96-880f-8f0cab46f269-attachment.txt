@@ -1,7 +1,0 @@
-Android
-//android.widget.TextView[@text='First/Last Metro']
-First/Last metro tab loads successfully
-Android
-//android.widget.TextView[@text='FIRST METRO']
-Android
-//android.widget.TextView[@text='LAST METRO']

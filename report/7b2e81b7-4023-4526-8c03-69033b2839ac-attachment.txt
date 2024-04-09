@@ -1,7 +1,0 @@
-[32mINFO    [0m airtest.core.api:cv.py:59 Try finding: Template(./images/UpcomingMetroMap.png)
-[35mDEBUG   [0m airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
-[35mDEBUG   [0m airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.00 s.
-[35mDEBUG   [0m airtest.core.api:cv.py:189 try match with TemplateMatching
-[35mDEBUG   [0m airtest.aircv.template_matching:template_matching.py:84 [Template] threshold=0.7, result={'result': (538, 530), 'rectangle': ((3, 96), (3, 965), (1074, 965), (1074, 96)), 'confidence': 0.9881748557090759}
-[35mDEBUG   [0m airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.07 s.
-[35mDEBUG   [0m airtest.core.api:cv.py:155 match result: {'result': (538, 530), 'rectangle': ((3, 96), (3, 965), (1074, 965), (1074, 96)), 'confidence': 0.9881748557090759, 'time': 0.07080912590026855}

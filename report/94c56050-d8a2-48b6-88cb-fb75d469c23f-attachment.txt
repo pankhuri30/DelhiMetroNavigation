@@ -1,5 +1,0 @@
-Android
-//android.widget.TextView[@text='Like this App']
-Android
-//android.widget.TextView[@text='Rate this App']
-Rating bar opened

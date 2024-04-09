@@ -1,4 +1,0 @@
-Android
-//android.widget.TextView[@text='Feedback']
-Android
-//android.widget.TextView[@text='Share']

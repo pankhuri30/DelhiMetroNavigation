@@ -1,7 +1,0 @@
-[14:10:59][INFO]<airtest.core.api> Try finding: Template(./images/ShowFare.png)
-[14:10:59][DEBUG]<airtest.core.api> try match with MultiScaleTemplateMatchingPre
-[14:10:59][DEBUG]<airtest.aircv.utils> find_best_result() run time is 0.00 s.
-[14:10:59][DEBUG]<airtest.core.api> try match with TemplateMatching
-[14:10:59][DEBUG]<airtest.aircv.template_matching> [Template] threshold=0.7, result={'result': (546, 760), 'rectangle': ((384, 603), (384, 917), (708, 917), (708, 603)), 'confidence': 0.9909162521362305}
-[14:10:59][DEBUG]<airtest.aircv.utils> find_best_result() run time is 0.07 s.
-[14:10:59][DEBUG]<airtest.core.api> match result: {'result': (546, 760), 'rectangle': ((384, 603), (384, 917), (708, 917), (708, 603)), 'confidence': 0.9909162521362305, 'time': 0.07412290573120117}

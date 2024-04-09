@@ -1,7 +1,0 @@
-[14:15:48][INFO]<airtest.core.api> Try finding: Template(./images/RateApp.png)
-[14:15:48][DEBUG]<airtest.core.api> try match with MultiScaleTemplateMatchingPre
-[14:15:48][DEBUG]<airtest.aircv.utils> find_best_result() run time is 0.00 s.
-[14:15:48][DEBUG]<airtest.core.api> try match with TemplateMatching
-[14:15:49][DEBUG]<airtest.aircv.template_matching> [Template] threshold=0.7, result={'result': (533, 1162), 'rectangle': ((160, 938), (160, 1387), (907, 1387), (907, 938)), 'confidence': 0.9819910526275635}
-[14:15:49][DEBUG]<airtest.aircv.utils> find_best_result() run time is 0.08 s.
-[14:15:49][DEBUG]<airtest.core.api> match result: {'result': (533, 1162), 'rectangle': ((160, 938), (160, 1387), (907, 1387), (907, 938)), 'confidence': 0.9819910526275635, 'time': 0.07543182373046875}

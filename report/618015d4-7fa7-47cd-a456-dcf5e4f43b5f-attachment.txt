@@ -1,9 +1,0 @@
-Android
-//android.widget.TextView[@text='Remove Ads']
-Android
-//android.widget.TextView[@text='Parking']
-Android
-//android.widget.TextView[@text='About']
-Android
-//android.widget.TextView[@text='Developed By:']
-About page successfully opened
