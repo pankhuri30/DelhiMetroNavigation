@@ -1,0 +1,5 @@
+Android
+Android
+Fare tab loads successfully
+Android
+Total Fare from Bahadurgarh City to Bahadurgarh City is : 10

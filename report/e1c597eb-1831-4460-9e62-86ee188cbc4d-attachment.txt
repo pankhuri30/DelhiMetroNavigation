@@ -1,0 +1,6 @@
+Android
+Android
+Total Fare Amount : Rs40
+Total Fare Time : 38mins
+Total Fare Stations in between : 12stations
+Total Metro lines need to be change : 1lines

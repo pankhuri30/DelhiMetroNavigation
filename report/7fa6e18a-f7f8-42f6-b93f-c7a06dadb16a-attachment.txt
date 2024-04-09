@@ -1,0 +1,7 @@
+[15:07:29][INFO]<airtest.core.api> Try finding: Template(./images/RemoveAds.png)
+[15:07:29][DEBUG]<airtest.core.api> try match with MultiScaleTemplateMatchingPre
+[15:07:29][DEBUG]<airtest.aircv.utils> find_best_result() run time is 0.00 s.
+[15:07:29][DEBUG]<airtest.core.api> try match with TemplateMatching
+[15:07:29][DEBUG]<airtest.aircv.template_matching> [Template] threshold=0.7, result={'result': (174, 808), 'rectangle': ((9, 622), (9, 994), (339, 994), (339, 622)), 'confidence': 0.9979439973831177}
+[15:07:29][DEBUG]<airtest.aircv.utils> find_best_result() run time is 0.08 s.
+[15:07:29][DEBUG]<airtest.core.api> match result: {'result': (174, 808), 'rectangle': ((9, 622), (9, 994), (339, 994), (339, 622)), 'confidence': 0.9979439973831177, 'time': 0.07984113693237305}
