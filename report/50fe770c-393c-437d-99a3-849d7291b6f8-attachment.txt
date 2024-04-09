@@ -1,0 +1,7 @@
+[15:10:07][INFO]<airtest.core.api> Try finding: Template(./images/FirstLastHeading.png)
+[15:10:07][DEBUG]<airtest.core.api> try match with MultiScaleTemplateMatchingPre
+[15:10:07][DEBUG]<airtest.aircv.utils> find_best_result() run time is 0.00 s.
+[15:10:07][DEBUG]<airtest.core.api> try match with TemplateMatching
+[15:10:07][DEBUG]<airtest.aircv.template_matching> [Template] threshold=0.7, result={'result': (371, 149), 'rectangle': ((35, 100), (35, 199), (708, 199), (708, 100)), 'confidence': 0.9982050657272339}
+[15:10:07][DEBUG]<airtest.aircv.utils> find_best_result() run time is 0.05 s.
+[15:10:07][DEBUG]<airtest.core.api> match result: {'result': (371, 149), 'rectangle': ((35, 100), (35, 199), (708, 199), (708, 100)), 'confidence': 0.9982050657272339, 'time': 0.04993295669555664}

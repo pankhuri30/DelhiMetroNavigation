@@ -1,0 +1,7 @@
+[15:11:53][INFO]<airtest.core.api> Try finding: Template(./images/GateDirectionHead.png)
+[15:11:53][DEBUG]<airtest.core.api> try match with MultiScaleTemplateMatchingPre
+[15:11:53][DEBUG]<airtest.aircv.utils> find_best_result() run time is 0.00 s.
+[15:11:53][DEBUG]<airtest.core.api> try match with TemplateMatching
+[15:11:53][DEBUG]<airtest.aircv.template_matching> [Template] threshold=0.7, result={'result': (362, 141), 'rectangle': ((21, 77), (21, 205), (704, 205), (704, 77)), 'confidence': 0.9662448763847351}
+[15:11:53][DEBUG]<airtest.aircv.utils> find_best_result() run time is 0.05 s.
+[15:11:53][DEBUG]<airtest.core.api> match result: {'result': (362, 141), 'rectangle': ((21, 77), (21, 205), (704, 205), (704, 77)), 'confidence': 0.9662448763847351, 'time': 0.053383827209472656}
